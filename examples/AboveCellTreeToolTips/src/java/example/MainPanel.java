@@ -15,6 +15,7 @@ import javax.swing.tree.TreeCellRenderer;
 import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreeSelectionModel;
 
+@SuppressWarnings("serial")
 public final class MainPanel extends JPanel {
   private MainPanel() {
     super(new BorderLayout());
@@ -116,6 +117,7 @@ public final class MainPanel extends JPanel {
   }
 }
 
+@SuppressWarnings("serial")
 class TooltipTree extends JTree {
   private final JLabel label = new JLabel() {
     @Override public Dimension getPreferredSize() {

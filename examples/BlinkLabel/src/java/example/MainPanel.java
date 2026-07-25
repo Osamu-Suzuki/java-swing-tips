@@ -9,6 +9,7 @@ import java.awt.event.HierarchyEvent;
 import java.util.logging.Logger;
 import javax.swing.*;
 
+@SuppressWarnings("serial")
 public final class MainPanel extends JPanel {
   private static final String BLACK_CIRCLE = "●"; // U+25CF
   private static final String WHITE_CIRCLE = "○"; // U+25CB

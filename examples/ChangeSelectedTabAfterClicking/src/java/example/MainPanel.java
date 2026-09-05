@@ -69,7 +69,7 @@ public final class MainPanel extends JPanel {
       JTabbedPane tabs = (JTabbedPane) popup.getInvoker();
       tabs.removeAll();
     });
-    JMenuItem closeAllButActive = popup.add("Close all bat active");
+    JMenuItem closeAllButActive = popup.add("Close all but active");
     closeAllButActive.addActionListener(e -> closeAllButActiveTab(popup));
     return popup;
   }

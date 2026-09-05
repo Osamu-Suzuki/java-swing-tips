@@ -115,7 +115,7 @@ final class TabbedPanePopupMenu extends JPopupMenu {
       JTabbedPane tabbedPane = (JTabbedPane) getInvoker();
       tabbedPane.removeAll();
     });
-    closeAllButActive = add("Close all bat active");
+    closeAllButActive = add("Close all but active");
     closeAllButActive.addActionListener(e -> {
       JTabbedPane tabbedPane = (JTabbedPane) getInvoker();
       int tabIdx = tabbedPane.getSelectedIndex();
